@@ -3,16 +3,16 @@ import { Container, VStack, Input, Button, Image, Text, Box, Grid } from "@chakr
 import { FaPaperPlane } from "react-icons/fa";
 
 const exampleImages = [
-  "https://images.unsplash.com/photo-1",
-  "https://images.unsplash.com/photo-2",
-  "https://images.unsplash.com/photo-3",
-  "https://images.unsplash.com/photo-4",
-  "https://images.unsplash.com/photo-5",
-  "https://images.unsplash.com/photo-6",
-  "https://images.unsplash.com/photo-7",
-  "https://images.unsplash.com/photo-8",
-  "https://images.unsplash.com/photo-9",
-  "https://images.unsplash.com/photo-10",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
+  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG5hdHVyZXxlbnwwfHx8fDE2ODk3NzQwNzA&ixlib=rb-1.2.1&q=80&w=400",
 ];
 
 const Index = () => {
